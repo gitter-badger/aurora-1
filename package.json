@@ -1,0 +1,23 @@
+{
+  "name": "aurora",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atjonathan/aurora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atjonathan/aurora/issues"
+  },
+  "homepage": "https://github.com/atjonathan/aurora#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "pug": "^2.0.0-beta2"
+  }
+}
