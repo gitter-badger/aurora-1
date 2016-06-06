@@ -7,9 +7,10 @@ var server = app.listen(port, () => {
   console.log('Server live on port ' + port);
 });
 
-app.set('views', './views')
+app.use(express.static('public'));
+app.set('views', './views');
 app.set('view engine', 'pug');
 
 app.get('/', function (req, res) {
-    res.render('index');
+    res.render('header');
 })

@@ -18,6 +18,8 @@
   "homepage": "https://github.com/atjonathan/aurora#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "pug": "^2.0.0-beta2"
+    "materialize-css": "^0.97.6",
+    "pug": "^2.0.0-beta2",
+    "rethinkdb": "^2.3.2"
   }
 }
